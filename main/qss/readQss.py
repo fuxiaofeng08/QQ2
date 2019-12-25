@@ -1,0 +1,2 @@
+
+MainQss = "QPushButton{color:red}"

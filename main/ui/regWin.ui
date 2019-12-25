@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>regUI</class>
+ <widget class="QDialog" name="regUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>498</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>90</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../images/image.qrc">:/image/QQ2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeBtn">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>10</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0;
+background:none;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../images/image.qrc">
+     <normaloff>:/image/close.png</normaloff>:/image/close.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usrPwd">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>223</y>
+     <width>300</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding-left:33;
+border:none;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>密码</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>221</x>
+     <y>390</y>
+     <width>181</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+   <property name="centerButtons">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>175</y>
+     <width>60</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0;
+background:none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pwdIcon">
+   <property name="geometry">
+    <rect>
+     <x>109</x>
+     <y>230</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../images/image.qrc">:/image/pwdIcon.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usrPwd_2">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>273</y>
+     <width>300</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding-left:33;
+border:none;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>确认密码</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usrName">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>175</y>
+     <width>300</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding-left:33;
+border:none;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="placeholderText">
+    <string>QQ号码/手机号/邮箱</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="topPic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../images/image.qrc">:/image/mainBackPic.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pwdIcon_2">
+   <property name="geometry">
+    <rect>
+     <x>109</x>
+     <y>280</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../images/image.qrc">:/image/pwdIcon.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="usrIcon">
+   <property name="geometry">
+    <rect>
+     <x>107</x>
+     <y>180</y>
+     <width>25</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../images/image.qrc">:/image/unlog.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="zoomIn">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>10</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0;
+background:none;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../images/image.qrc">
+     <normaloff>:/image/zoomin.png</normaloff>:/image/zoomin.png</iconset>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioman">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>330</y>
+     <width>61</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>男</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radiowen">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>330</y>
+     <width>71</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>女</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>320</y>
+     <width>61</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(90, 90, 90);</string>
+   </property>
+   <property name="text">
+    <string>性  别</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>topPic</zorder>
+  <zorder>label_2</zorder>
+  <zorder>closeBtn</zorder>
+  <zorder>usrPwd</zorder>
+  <zorder>buttonBox</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pwdIcon</zorder>
+  <zorder>usrPwd_2</zorder>
+  <zorder>usrName</zorder>
+  <zorder>pwdIcon_2</zorder>
+  <zorder>usrIcon</zorder>
+  <zorder>zoomIn</zorder>
+  <zorder>radioman</zorder>
+  <zorder>radiowen</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources>
+  <include location="../images/image.qrc"/>
+  <include location="../images/image.qrc"/>
+  <include location="../images/image.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>regUI</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>266</x>
+     <y>405</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>369</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>regUI</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>389</x>
+     <y>398</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>467</x>
+     <y>317</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zoomIn</sender>
+   <signal>clicked()</signal>
+   <receiver>regUI</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>422</x>
+     <y>22</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>393</x>
+     <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>closeBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>regUI</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>469</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>424</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>usrName</sender>
+   <signal>editingFinished()</signal>
+   <receiver>regUI</receiver>
+   <slot>getName()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>244</x>
+     <y>192</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>101</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>usrPwd</sender>
+   <signal>editingFinished()</signal>
+   <receiver>regUI</receiver>
+   <slot>firstPwd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>157</x>
+     <y>239</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>55</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>usrPwd_2</sender>
+   <signal>editingFinished()</signal>
+   <receiver>regUI</receiver>
+   <slot>secondPwd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>83</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>checkName()</slot>
+  <slot>getName()</slot>
+  <slot>firstPwd()</slot>
+  <slot>secondPwd()</slot>
+  <slot>sexSelect()</slot>
+ </slots>
+</ui>
